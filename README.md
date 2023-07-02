@@ -18,8 +18,9 @@ Official Pytorch implementation of "Dual Arbitrary Scale Super-Resolution for Mu
 
 ## Train
 ### 1. Prepare training data
-1.1 Downkload fastMRI dataset and IXI dataset.  
-1.2 Filter the multi contrast MRI datasets.
+Downkload fastMRI dataset and IXI dataset.  
+
+Filter the multi contrast MRI datasets.
 ### 2. Begin to train
 Run `./main.sh` to train on the training dataset. Please update `name_train`, `dir_data`, `save`, `ref_mat`, `ref_list` in the bash file as your needs.
 
