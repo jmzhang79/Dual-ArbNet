@@ -24,7 +24,7 @@ Official Pytorch implementation of "Dual Arbitrary Scale Super-Resolution for Mu
 Run `./main.sh` to train on the training dataset. Please update `name_train`, `dir_data`, `save`, `ref_mat`, `ref_list` in the bash file as your needs.
 
 ## Quick Test on An LR MR Image
-Download [pre-trained weights](https://1drv.ms/u/s!Amr2hw2GQjYIhRF46VujiNq-TNrL?e=nvO780) and put it in `experiment` folder.
+Download [pre-trained weights](https://1drv.ms/u/s!Amr2hw2GQjYIhRF46VujiNq-TNrL?e=nvO780) and put it in the `experiment` folder.
 
 Run `./test_save.sh` to enlarge an LR image to an arbitrary size. Please update `dir_data` and `pre_train` in the bash file as `your_path`.
 
