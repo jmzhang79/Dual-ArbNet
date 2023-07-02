@@ -1,5 +1,5 @@
 # Dual-ArbNet
-Pytorch implementation of "Dual Arbitrary Scale Super-Resolution for Multi-Contrast MRI"
+Official Pytorch implementation of "Dual Arbitrary Scale Super-Resolution for Multi-Contrast MRI"
 
 ## Requirements
 - Python 3.9
@@ -17,16 +17,18 @@ Pytorch implementation of "Dual Arbitrary Scale Super-Resolution for Multi-Contr
 - tqdm==4.64.1
 
 ## Train
-1. Prepare training data
-1.1 Downkload fastMRI dataset and IXI dataset.
+### 1. Prepare training data
+1.1 Downkload fastMRI dataset and IXI dataset.  
 1.2 Filter the multi contrast MRI datasets.
-2. Begin to train
-Run ./main.sh to train on the training dataset. Please update name_train, dir_data, save, ref_mat, ref_list in the bash file as your need.
+### 2. Begin to train
+Run `./main.sh` to train on the training dataset. Please update `name_train`, `dir_data`, `save`, `ref_mat`, `ref_list` in the bash file as your needs.
 
 ## Quick Test on An LR MR Image
+Download [pre-trained weights](https://1drv.ms/u/s!Amr2hw2GQjYIhRF46VujiNq-TNrL?e=nvO780) and put it in `experiment`.
+
 Run `./test_save.sh` to enlarge an LR image to an arbitrary size. Please update `dir_data` and `pre_train` in the bash file as `your_path`.
 
 ## Visual Results
-### 3. SR with Arbitrary Scale Factors
+### SR with Arbitrary Scale Factors
 You can change the --scale `./test_save.sh` to obtain the results of different scale factors.
 You can also change the --ref_type_test `./test_save.sh` to use HR(1) or LR(2) reference image.
