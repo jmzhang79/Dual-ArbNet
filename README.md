@@ -1,5 +1,6 @@
 # Dual-ArbNet
 Official Pytorch implementation of "Dual Arbitrary Scale Super-Resolution for Multi-Contrast MRI"
+
 [Paper](https://arxiv.org/abs/2307.02334v2)
 
 ## Requirements
