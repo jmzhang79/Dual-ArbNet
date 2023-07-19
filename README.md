@@ -1,7 +1,7 @@
-# Dual-ArbNet
-Official Pytorch implementation of "Dual Arbitrary Scale Super-Resolution for Multi-Contrast MRI"
+# Dual-ArbNet-PyTorch
+Official Pytorch implementation of "Dual Arbitrary Scale Super-Resolution for Multi-Contrast MRI" (MICCAI2023)
 
-[Paper](https://arxiv.org/abs/2307.02334v2)
+[Paper](https://arxiv.org/abs/2307.02334v3)
 
 ## Requirements
 - Python 3.9
